@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class dz6 {
     public static void main(String[] args) {
-        List<String> listWords = Arrays.asList("маdмаiiu", "мама", "тата", "їж їжак желе");
+        List<String> listWords = Arrays.asList("мама", "тата", "їж їжак желе");
         List<String> newList = new ArrayList<>();
 
         int count = 0;
