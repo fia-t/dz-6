@@ -1,7 +1,5 @@
 import java.util.*;
 import java.util.List;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class dz6 {
     public static void main(String[] args) {
@@ -38,7 +36,6 @@ public class dz6 {
             char c = s.charAt(i);
             if (charCount.containsKey(c)) {
                 charCount.put(c, charCount.get(c) + 1);
-                //System.out.println(charCount);
             } else {
                 charCount.put(c, 1);
             }
